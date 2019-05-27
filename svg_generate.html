@@ -1,0 +1,13 @@
+<div xmlns:py="http://genshi.edgewall.org/">
+	<py:with vars="elemSize = 600 / len(svg_test_colors)">
+		<svg width="600px" height="600px" xmlns="http://www.w3.org/2000/svg">
+			<g>
+				<py:for each="idx, color_line in enumerate(svg_test_colors)" >
+					<py:for each="idy, color_val in enumerate(color_line)">
+						<rect x="${idx * elemSize}" y="${idy * elemSize}" width="${elemSize}" height="${elemSize}" fill="${color_val}"/>
+					</py:for>
+				</py:for>
+			</g>
+		</svg>
+	</py:with>
+</div>
