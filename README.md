@@ -1,2 +1,2 @@
 # gsoc_2k19
-My gsoc stuff
+Study Materials : https://bocoup.com/blog/d3js-and-canvas
