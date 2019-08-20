@@ -1,7 +1,1 @@
-# gsoc_2k19
-Study Materials 
-
-                : https://bocoup.com/blog/d3js-and-canvas
-
-                : http://www.datamake.io/blog/d3-canvas-full#manual
-                :https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API
+https://gist.github.com/knakul853/ae19d276d55898e653a643f6d925ae98
